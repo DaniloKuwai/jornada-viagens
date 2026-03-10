@@ -7,10 +7,6 @@ header{
 .logo{
     display: inline-block;
     width:68px;
-<<<<<<< Updated upstream
-    height:64px;
-    margin:37px 0 0 48px;
-=======
     height:auto;
     border:1px solid red;
 }
@@ -26,5 +22,4 @@ input[type="checkbox"]:checked ~ nav{
 
 nav{
     display: none;
->>>>>>> Stashed changes
 }
