@@ -7,6 +7,24 @@ header{
 .logo{
     display: inline-block;
     width:68px;
+<<<<<<< Updated upstream
     height:64px;
     margin:37px 0 0 48px;
+=======
+    height:auto;
+    border:1px solid red;
+}
+
+.navigation-menu{
+    margin-top:24px;
+}
+
+input[type="checkbox"]:checked ~ nav{
+    display:block;
+}
+
+
+nav{
+    display: none;
+>>>>>>> Stashed changes
 }
