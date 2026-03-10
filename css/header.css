@@ -1,7 +1,10 @@
 header{
-    width:100%;
-    height:138px;
     background-color: var(--background-tertiary-color);
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between ;
+    align-items: center;
+    padding: 38px 48px;
 }
 
 .logo{
@@ -18,7 +21,6 @@ header{
 input[type="checkbox"]:checked ~ nav{
     display:block;
 }
-
 
 nav{
     display: none;
